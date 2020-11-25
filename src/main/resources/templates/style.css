@@ -1,0 +1,50 @@
+body{
+ background-color: #F5A62310;
+ font-family: Time;
+}
+
+figure {
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:#a37b2a; /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
+  color: black; /*меняем цвет ссылок*/
+  padding:15px 15px; /*добавляем отступ*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+   margin: 20px;
+}
+a:hover {
+  background:#5c420e;/*добавляем эффект при наведении*/
+}
+nav {
+  float:center; /*Размещаем список горизонтально для реализации меню*/
+}
+
+h2{
+   text-align: center;
+}
+
+ul{
+     margin-left:100px;
+}
+
+.footer {
+
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #a68d50; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+    text-align: center;
+    height: 40px;
+    margin-top: 80px;
+   }
+
+div1{
+     background: grey;
+     color: grey;
+}
