@@ -1,12 +1,12 @@
 <!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
 
-<html xmlns:th="http://www.thymeleaf.org" xmlns:text-align="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>Msite</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
@@ -17,20 +17,20 @@
 
     <h2>Msite </h2>
 
-    <img src="logo.png" width="70" height="70" alt="Логотип" class="left-img/>
+    <img src="logo.png" width="70" height="70" alt="Логотип" class="left-img"/>
 
 
     <br><br>
     <nav>
-       <p style=" 40px"> <a href = "/">Главная</a>
-        <a href = "/about">О сайте</a>
-        <a href = "/about">Контакты</a>
-        <a href = "/login">Страница авторизации</a>
+            <a href = "/head">Главная</a>
+            <a href = "/about">О сайте</a>
+            <a href = "/about">Контакты</a>
+            <a href = "/login">Авторизация</a>
     </nav>
 
     <br> <br>
     <figure>
-        <img src="logos.jpg" width="930" height="400" alt="Основная картинка" class="center-img/>
+        <img src="logos.jpg" width="930" height="400" alt="Основная картинка" class="center-img"/>
     </figure>
     <br><br><br>
 
@@ -142,9 +142,12 @@ $(this).parent().next().slideToggle();
 
 
 <rssapp-wall id="ZAtrg0v2pD6Noo0w"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
-<link rel = "stylesheet" href = "style.css">
+
         <div class="footer">
             &copy; Дарья Милорадова
         </div>
+
+<link rel="stylesheet" href="static/style.css" type="text/css">
+
 </body>
 </html>
