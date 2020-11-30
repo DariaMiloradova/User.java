@@ -24,28 +24,29 @@
         <a href="/about">О сайте/Контакты</a>
     </nav>
     <br><br><br>
-    <form action="/login_proc" method="post">
-        <div>
-            <label>
-                <p style="margin-left: 40px">User Name : </p>
-                <input type="text" name="username"/>
-            </label>
-        </div>
-        <div>
-            <label>
-                <p style="margin-left: 52px">Password: </p>
-                <input type="password" name="password"/>
-            </label>
-        </div>
-        <input type="hidden" name="_csrf" value="{{_csrf.token}}"/>
-        <div>
-            <input type="submit"/>
-            <p style="margin-left: 160px" value="Sign In"/>
-        </div>
-        <br>
-    </form>
-<a href="/registration" style="margin-left: 140px">Add new user</a>
-
+    <div class="d-flex flex-column align-items-center">
+        <form action="/login_proc" method="post">
+            <div>
+                <label>
+                    <p align="center" >User Name : </p>
+                    <input type="text" name="username"/>
+                </label>
+            </div>
+            <div>
+                <label>
+                    <p align="center">Password: </p>
+                    <input type="password" name="password"/>
+                </label>
+            </div>
+            <input type="hidden" name="_csrf" value="{{_csrf.token}}"/>
+            <div>
+                <input type="submit" class="w-100"/>
+                <p  align="center"value="Sign In"/>
+            </div>
+            <br>
+        </form>
+        <a href="/registration">Add new user</a>
+    </div>
 
 </body>
 </html>
